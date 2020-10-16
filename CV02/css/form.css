@@ -1,0 +1,67 @@
+input, textarea {
+    transition: 1s;
+    width: 100%;
+    box-sizing: content-box;
+    margin: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+#form-background{
+    background-image: url("../img/galeria_background.jpg");
+}
+#submit {
+    padding: 0;
+    color: green;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: #19dd19;
+    color: red;
+    transition: 0.5s;
+}
+
+#clear {
+    color: red;
+    transition: 0.5s;
+}
+
+#clear:hover {
+    background-color: red;
+    color: #19dd19;
+    transition: 0.5s;
+}
+
+section {
+    background-color: gray;
+    height: 100%;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+label {
+    width: 100%;
+    box-sizing: content-box;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: right;
+    box-shadow: white;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#clear {
+    margin: 20px 0;
+
+}
+#submit{
+    margin-left:0;
+}

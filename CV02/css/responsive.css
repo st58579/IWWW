@@ -1,0 +1,40 @@
+@media only screen and (max-width: 700px) {
+    #menu a{
+        font-size: 8vw;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .hero-text{
+        font-size: 5vw;
+    }
+    .footerHeading {
+        font-size: 10vw;
+
+    }
+    footer div{
+        margin:auto;
+    }
+    .pos{
+        font-size: 7vw;
+        text-align: center;
+    }
+    div.desc{
+        font-size: 7vw;
+    }
+    .opened_img{
+        width: 100%;
+    }
+    #form-background section{
+        width: 75%;
+    }
+    input{
+        height: 4vw;
+    }
+    label{
+        font-size: 7vw;
+    }
+    #submit{
+        height:32px;
+    }
+}

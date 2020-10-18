@@ -1,0 +1,9 @@
+@media print {
+    #menu, #header-background, footer{
+        display: none;
+    }
+    .gallery{
+        page-break-after: always;
+    }
+
+}

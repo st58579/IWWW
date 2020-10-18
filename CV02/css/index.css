@@ -66,14 +66,15 @@ span.gallery {
     border: 1px solid aliceblue;
 }
 
-div.desc {
+.desc {
     font-size: 20px;
     padding: 15px;
     text-align: center;
 }
 
 #blogPostList {
-    background-color: aliceblue;
+    background-color: #807f7f;
+    padding: 50px 0px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -91,11 +92,14 @@ ul {
     padding: 10px;
     margin: 0 15px;
 }
-#main-background{
+#header-background{
     background-image: url("../img/galerie.jpg");
 }
 .opened_img{
     display:block;
     margin:auto;
     width: 75%;
+}
+.background_open_img{
+    background-color: #807f7f;
 }

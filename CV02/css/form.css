@@ -25,6 +25,7 @@ input, textarea {
 #clear {
     color: red;
     transition: 0.5s;
+    height:30px;
 }
 
 #clear:hover {
@@ -65,3 +66,4 @@ label {
 #submit{
     margin-left:0;
 }
+
